@@ -27,10 +27,10 @@ The Zwilt Landing Page is a responsive, user-friendly interface designed to show
 
 ## Set Up  Instructions
 1. Clone the repository:
-git clone https://github.com/emefienem/zwilt-page.git
+git clone https://github.com/emefienem/Zwilt-page.git
 
 2. Navigate to the project directory:
-cd zwilt-page
+cd Zwilt-page
 
 3. Install dependencies:
 npm install
