@@ -55,8 +55,13 @@ const Screening = () => {
         </p>
         {/* Mapping through the 'ScreeningList' to get necessary details */}
         {screeningList.map((list) => (
-          <div key={list.id} className="bg-white border border-[#F0F0F0] mb-2">
-            <input
+          <div
+            key={list.id}
+            className={`bg-white border border-[#F0F0F0] mb-2 ${
+              openItem === list.id ? "shadow-lg" : ""
+            }`}
+          >
+            {/* <input
               type="radio"
               name="my-accordion-3"
               checked={openItem === list.id}
@@ -82,7 +87,33 @@ const Screening = () => {
             </div>
             <div className="text-base">
               <p>{list.description}</p>
+              </div> */}
+            <div
+              onClick={() => toggleHandler(list.id)}
+              className="cursor-pointer flex items-center justify-between"
+            >
+              <div className="text-xl font-medium flex items-center gap-4">
+                <div
+                  className={`w-[54px] h-[54px] rounded-full flex items-center justify-center ${
+                    openItem === list.id ? "bg-[#8BA4FD]" : "bg-[#ECECEC]"
+                  }`}
+                >
+                  <img
+                    src={openItem === list.id ? PlayIconWhite : PlayIconDark}
+                    alt="play icon"
+                  />
+                </div>
+                <p className="text-base">
+                  <span className="font-semibold">Step {list.id}: </span>
+                  {list.title}
+                </p>
+              </div>
             </div>
+            {openItem === list.id && (
+              <div className="mt-4 text-base text-[#1E1515CC]">
+                <p>{list.description}</p>
+              </div>
+            )}
           </div>
         ))}
       </div>
