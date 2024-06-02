@@ -42,7 +42,8 @@ const Main = () => {
       <div className="w-full text-[#202229] flex flex-col items-center ">
         <h1 className="max-w-2xl md:text-5xl text-3xl font-bold text-center mb-8">
           Finding the right fit
-          <img src={Gif} alt="" /> has never been easier.
+          <img src={Gif} alt="Gif profile" className="text-[10px] w-10" /> has
+          never been easier.
         </h1>
         <p className="text-center max-w-[569px] md:text-[21px] text-lg">
           With our rigorous pre-vetting process, you'll never have to worry
