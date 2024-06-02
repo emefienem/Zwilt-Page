@@ -13,17 +13,6 @@ import Animation from "./components/Animation";
 function App() {
   return (
     <>
-      {/* <div className="section p-8">
-        <Navbar />
-        <Main />
-      </div>
-      <img src={UnionImg} alt="Divider" className="mt-20 w-full" />
-      <MarketPlace />
-      <JasonGroove />
-      <Screening />
-      <ChooseUs />
-      <Faq />
-      <Footer /> */}
       <div className="section p-8">
         <Animation animation="fade-in-left">
           <Navbar />
