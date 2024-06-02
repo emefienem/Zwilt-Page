@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Underline from "../assets/line.svg";
 import Logo from "../assets/logo2.svg";
-
+import DarkLogo from "../assets/dark-logo.svg";
 const Links = [
   {
     heading: "Platform",
@@ -30,6 +30,14 @@ const Footer = () => {
           <h1 className="text-center text-white text-3xl md:text-5xl font-semibold max-w-[683px]">
             Need a job done, and done well? Get started
           </h1>
+
+          <div className="bg-[#AF7CFF] hover:bg-white rounded-2xl">
+            <img
+              src={DarkLogo}
+              alt="Upside Down"
+              className="transfrom rotate-90 text-white hover:bg-[#AF7CFF]"
+            />
+          </div>
         </div>
 
         <div>
