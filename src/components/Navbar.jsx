@@ -59,14 +59,18 @@ const Navbar = () => {
         </a>
       </div>
       <div className="justify-center items-center hidden lg:flex">
-        <ul className="flex flex-row space-x-7">
+        <ul className="flex flex-row space-x-7 cursor-pointer">
           <li
             className={activeElement === "find-work" ? "active" : ""}
             onClick={() => setActiveElement("find-work")}
           >
             Find Work
             {activeElement === "find-work" && (
-              <img src={activeIndicatorImage} alt="active" className="ml-1" />
+              <img
+                src={activeIndicatorImage}
+                alt="active"
+                className="ml-1 w-3"
+              />
             )}
           </li>
           <li
@@ -75,7 +79,11 @@ const Navbar = () => {
           >
             Find Talent
             {activeElement === "find-talent" && (
-              <img src={activeIndicatorImage} alt="active" className="ml-1" />
+              <img
+                src={activeIndicatorImage}
+                alt="active"
+                className="ml-1 w-3"
+              />
             )}
           </li>
           <li
@@ -84,7 +92,11 @@ const Navbar = () => {
           >
             Articles
             {activeElement === "articles" && (
-              <img src={activeIndicatorImage} alt="active" className="ml-1" />
+              <img
+                src={activeIndicatorImage}
+                alt="active"
+                className="ml-1 w-3"
+              />
             )}
           </li>
           <li
@@ -93,7 +105,11 @@ const Navbar = () => {
           >
             About Us
             {activeElement === "about-us" && (
-              <img src={activeIndicatorImage} alt="active" className="ml-1" />
+              <img
+                src={activeIndicatorImage}
+                alt="active"
+                className="ml-1 w-3"
+              />
             )}
           </li>
           <li
@@ -102,7 +118,11 @@ const Navbar = () => {
           >
             Contact Us
             {activeElement === "contact-us" && (
-              <img src={activeIndicatorImage} alt="active" className="ml-1" />
+              <img
+                src={activeIndicatorImage}
+                alt="active"
+                className="ml-1 w-3"
+              />
             )}
           </li>
         </ul>
