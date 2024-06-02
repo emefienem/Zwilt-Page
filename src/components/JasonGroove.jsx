@@ -40,7 +40,7 @@ const JasonGroove = () => {
                 <img
                   src={DarkLogo}
                   alt="Left Dark Logo"
-                  className="transform rotate-180 px-4 py-4 text-[#AF7CFF] hover:text-black w-10"
+                  className="transform rotate-180 px-4 py-4 text-[#AF7CFF] hover:text-black w-12"
                 />
               </div>
               {/* Forward Logo */}
@@ -48,7 +48,7 @@ const JasonGroove = () => {
                 <img
                   src={DarkLogo}
                   alt="Right Dark Logo"
-                  className="px-4 py-4 text-[#AF7CFF] hover:text-black w-10"
+                  className="px-4 py-4 text-[#AF7CFF] hover:text-black w-12"
                 />
               </div>
             </div>
