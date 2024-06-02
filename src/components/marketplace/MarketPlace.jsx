@@ -30,13 +30,12 @@ const MarketPlace = () => {
         ))}
 
         <div className="flex items-center justify-between gap-2 lg:gap-20 md:text-[22px]">
-          <div className="relative inline-block transition-transform duration-300 ease-in-out">
-            <div className="flex space-x-3">
+          <div class="flex items-center space-x-3 group">
+            <div class="flex items-center space-x-3 transition-transform duration-300 transform group-hover:translate-x-3">
               <img src={DarkLogo} alt="Dark Logo" />
-              <span className="cursor-pointer bg-[#e0e0e0] px-1 py-3">
-                Explore more
-              </span>
+              <span>Explore more</span>
             </div>
+            <div class="absolute inset-0 bg-[#e0e0e0] opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
           </div>
           <div className="md:absolute md:left-[46.5%]">
             <p>
