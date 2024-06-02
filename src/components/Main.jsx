@@ -63,7 +63,7 @@ const Main = () => {
             placeholder="design |"
             className="w-full h-full bg-white border-[1.5px] border-[#F0F0F0] border-l-0 rounded-e-none focus:outline-none pl-5 md:pl-3"
           />
-          <button className="relative right-8 h-full bg-[#FFBE2E] border-none hover:bg-[#FFBE2E] md:w-[74px] w-[90px] md rounded-xl">
+          <button className="relative right-8 h-full bg-[#FFBE2E] border-none hover:bg-[#FFBE2E] md:w-[74px] w-[95px] md rounded-xl">
             {/* Input image */}
             <img src={DarkLogo} alt="Dark Logo" className="relative left-4" />
           </button>
