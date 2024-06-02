@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fade-in-bottom {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fade-in-visible {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* SLanting the borders using clip path */
+.slanted-top {
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
 }
 
-.App-link {
-  color: #61dafb;
+.slanted-border {
+  clip-path: polygon(0 1%, 100% 0, 100% 99%, 0% 100%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.slanted-footer {
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+}
+
+.drop-shadow-card {
+  box-shadow: 0px 15px 30px 0px #bfb5ff26;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(237, 239, 255, 0) 0%,
+    #edefff 130.82%
+  );
+}
+
+.footer-gradient {
+  background: linear-gradient(180deg, #0c0c0c 0%, #202229 100%);
+}
+
+.section {
+  max-width: 1280px;
+  margin: auto;
+}
+
+@media (min-width: 1024px) {
+  .slanted-border {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
   }
 }
