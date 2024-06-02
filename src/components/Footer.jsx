@@ -46,13 +46,13 @@ const Footer = () => {
               <div>
                 <Link
                   to="/"
-                  className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 p-4"
+                  className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 p-8"
                 >
                   Hire now
                 </Link>
                 <Link
                   to="/"
-                  className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white px-3 py-4"
+                  className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white px-3 py-9"
                 >
                   Apply now
                 </Link>

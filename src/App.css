@@ -64,6 +64,11 @@
 }
 
 @media (min-width: 768px) {
+  body,
+  * {
+    overflow: visible;
+  }
+
   .markets-container {
     overflow-x: visible;
   }
