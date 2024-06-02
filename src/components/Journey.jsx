@@ -70,7 +70,7 @@ const Journey = () => {
                 <img
                   src={DarkLogo}
                   alt="Dark Logo"
-                  className="invert bg-black p-4"
+                  className="invert-0 bg-black p-4 rounded-xl"
                 />
                 <button className="font-semibold text-sm z-10">
                   {list.text}
