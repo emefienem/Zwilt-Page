@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full bg-[#525AA0] rounded-2xl text-white shadow-xl flex justify-between p-5">
+    <div className="w-full bg-[#525AA0] rounded-2xl text-white shadow-xl flex justify-between p-5 relative">
       <div>
         <a className="text-2xl">
           {/* Zwilt Logo */}
@@ -74,14 +74,14 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div>
-          <button onClick={toggleMenu} className="lg:hidden focus:outline-none">
+        <div className="relative lg:hidden">
+          <button onClick={toggleMenu} className="focus:outline-none">
             {/* Menu icon on smaller device */}
             <MenuIcon />
           </button>
 
           {menuOpen && (
-            <ul className="absolute right-0 mt-3 p-2 shadow bg-[#525AA0] w-52 rounded-lg">
+            <ul className="absolute right-0 mt-3 p-2 shadow bg-[#525AA0] w-52 rounded-lg z-50">
               <li className="py-2 border-b border-gray-300">Find Work</li>
               <li className="py-2 border-b border-gray-300">Find Talent</li>
               <li className="py-2 border-b border-gray-300">Articles</li>
