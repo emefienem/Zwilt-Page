@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div>
           <footer className="text-white">
-            <div className="flex flex-col md:flex-row space-x-0 md:space-x-20">
+            <div className="flex flex-col md:flex-row space-x-0 md:space-x-24">
               <aside className="max-w-[284px]">
                 {/* Logo  image  */}
                 <img src={Logo} alt="Footer Logo" />
@@ -72,7 +72,7 @@ const Footer = () => {
                         {link.heading}
                       </h2>
                       {link.links.map((item, index) => (
-                        <div className="mb-3">
+                        <div className="mb-3 hover:scale-90 duration-300">
                           <Link to="/" key={index} className="text-sm">
                             {item}
                             <img src={Underline} alt="Underline" />
