@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Group1 from "../assets/group1.svg";
 import Group2 from "../assets/group2.svg";
 import Group3 from "../assets/group3.svg";
@@ -38,6 +38,8 @@ const Lists = [
 ];
 
 const Journey = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <div className="md:py-20">
       <h1 className="md:text-5xl text-3xl font-bold mb-8 text-center">
@@ -66,14 +68,23 @@ const Journey = () => {
               <p className="text-base text-textGray">{list.description}</p>
               {/* Hover on the 'list.text' so the arrow would move to the right and the bg of the image would also cover the 'list.text' */}
               <div className="relative">
-                <button className="font-semibold text-sm hover:bg-[#e0e0e0] hover:bg-cover hover:bg-no-repeat">
-                  {list.text}
-                </button>
-                <img
-                  src={DarkLogo}
-                  alt="Dark Logo"
-                  className="absolute top-0 right-0 bg-[#e0e0e0] p-3 transition-transform duration-300 transform translate-x-0 hover:translate-x-full"
-                />
+                <div
+                  className="relative flex items-center"
+                  onMouseEnter={() => setIsHovered(true)}
+                  onMouseLeave={() => setIsHovered(false)}
+                >
+                  <img
+                    src={DarkLogo}
+                    alt="Dark Logo"
+                    className={`bg-[#e0e0e0] p-3 absolute top-0 left-0 transition-all ${
+                      isHovered ? "w-full" : "w-auto"
+                    }`}
+                    style={{ zIndex: 1 }}
+                  />
+                  <button className="font-semibold text-sm z-10">
+                    {list.text}
+                  </button>
+                </div>
               </div>
             </div>
           </div>
