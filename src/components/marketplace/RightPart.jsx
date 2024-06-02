@@ -8,7 +8,7 @@ const RightPart = ({ markets }) => {
         {markets.markets.map((market, index) => (
           <div
             key={index}
-            className="flex-shrink-0 flex flex-col flex-wrap items-center gap-1 min-w-[100px] sm:min-w-[120px]"
+            className="flex-shrink-0 flex flex-col flex-wrap items-center min-w-[150px] sm:min-w-[140px]"
           >
             <div className="w-[76px] h-[76px] lg:w-[86px] lg:h-[86px] rounded-full flex items-center justify-center bg-[#F6F6F6] hover:scale-125 cursor-pointer">
               <img src={market.icon} alt={market.text} />
