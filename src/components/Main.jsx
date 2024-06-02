@@ -40,7 +40,7 @@ const Main = () => {
   return (
     <section className="flex justify-center mt-20">
       <div className="w-full text-[#202229] flex flex-col items-center ">
-        <h1 className="max-w-[700px] md:text-5xl text-3xl font-bold text-center mb-8">
+        <h1 className="max-w-3xl md:text-5xl text-3xl font-bold text-center mb-8">
           Finding the right fit
           <img src={Gif} alt="Gif profile" className="text-[10px] w-12" /> has
           never been easier.
