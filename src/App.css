@@ -51,7 +51,7 @@
 
 .markets-container {
   overflow-x: auto !important; /* The !important would override the universal selector */
-  white-space: nowrap; /* Ensure items are in a single line for horizontal scroll */
+  /* white-space: nowrap; Ensure items are in a single line for horizontal scroll */
 }
 
 .markets {
