@@ -17,6 +17,8 @@ function App() {
         <Animation animation="fade-in-left">
           <Navbar />
         </Animation>
+      </div>
+      <div className="section p-8">
         <Animation animation="fade-in-bottom">
           <Main />
         </Animation>
