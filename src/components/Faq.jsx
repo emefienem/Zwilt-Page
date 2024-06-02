@@ -51,6 +51,15 @@
 // };
 
 // export default Faq;
+import React, { useState } from "react";
+import YellowLogo from "../assets/yellow-logo.svg";
+
+const faqsQuestion = [
+  "I want to work part-time, is that possible",
+  "How long are the average projects?",
+  "How does the payment works?",
+  "How much can I earn?",
+];
 
 const Faq = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
