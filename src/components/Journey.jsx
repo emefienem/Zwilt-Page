@@ -65,28 +65,16 @@ const Journey = () => {
                 {list.title}
               </h1>{" "}
               {/* Description of each list */}
-              <p className="text-base text-textGray">{list.description}</p>
-              {/* Hover on the 'list.text' so the arrow would move to the right and the bg of the image would also cover the 'list.text' */}
-              <div className="relative">
-                <div
-                  className="relative flex items-center"
-                  onMouseEnter={() => setIsHovered(true)}
-                  onMouseLeave={() => setIsHovered(false)}
-                >
-                  <div className="relative">
-                    <img
-                      src={DarkLogo}
-                      alt="Dark Logo"
-                      className={`bg-[#e0e0e0] p-3 absolute top-0 transition-all ${
-                        isHovered === index ? "w-full" : "w-auto"
-                      }`}
-                      style={{ zIndex: 1 }}
-                    />
-                  </div>
-                  <button className="font-semibold text-sm z-10">
-                    {list.text}
-                  </button>
-                </div>
+              <p className="text-base text-[#959595]">{list.description}</p>
+              <div className="flex space-x-6">
+                <img
+                  src={DarkLogo}
+                  alt="Dark Logo"
+                  className="invert bg-black p-4"
+                />
+                <button className="font-semibold text-sm z-10">
+                  {list.text}
+                </button>
               </div>
             </div>
           </div>
