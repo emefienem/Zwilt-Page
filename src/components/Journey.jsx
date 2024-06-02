@@ -69,7 +69,7 @@ const Journey = () => {
               {/* Hover on the 'list.text' so the arrow would move to the right and the bg of the image would also cover the 'list.text' */}
               <div className="relative">
                 <div
-                  className="relative flex items-center"
+                  className="relative flex space-x-8 items-center"
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
                 >
