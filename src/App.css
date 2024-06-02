@@ -80,19 +80,6 @@
     overflow-x: visible;
   }
 
-  .markets-container {
-    overflow-x: visible;
-  }
-
-  .markets {
-    flex-wrap: wrap;
-    width: 100%; /* Reset the width to fit the container */
-  }
-
-  .market-item {
-    flex: 1 0 21%; /* Adjust this value based on how many items you want per row on larger screens */
-  }
-
   .embla__container {
     flex-wrap: wrap;
     width: 100%;
