@@ -76,8 +76,8 @@ const Journey = () => {
                   <img
                     src={DarkLogo}
                     alt="Dark Logo"
-                    className={`bg-[#e0e0e0] p-3 absolute top-0 left-0 transition-all ${
-                      isHovered ? "w-full" : "w-auto"
+                    className={`bg-[#e0e0e0] p-3 absolute top-0 transition-all ${
+                      isHovered ? "left-24" : "left-0"
                     }`}
                     style={{ zIndex: 1 }}
                   />
