@@ -13,7 +13,7 @@ import Animation from "./components/Animation";
 function App() {
   return (
     <div>
-      <div className="section p-8 z-[-1]">
+      <div className="section p-8">
         <Animation animation="fade-in-left">
           <Navbar />
         </Animation>
