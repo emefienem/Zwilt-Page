@@ -72,7 +72,7 @@ const Journey = () => {
                   alt="Dark Logo"
                   className="invert bg-black p-4 rounded-xl"
                 />
-                <button className="font-semibold text-sm z-10">
+                <button className="font-semibold text-base z-10">
                   {list.text}
                 </button>
               </div>
