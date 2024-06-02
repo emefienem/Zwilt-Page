@@ -38,7 +38,7 @@ const Main = () => {
   const roles = activeTab === "IT & Development" ? rolesIT : rolesDesign;
 
   return (
-    <section className="flex justify-center mt-20 z-[-1]">
+    <section className="flex justify-center mt-20 z-0">
       <div className="w-full text-[#202229] flex flex-col items-center ">
         <h1 className="max-w-2xl md:text-5xl text-3xl font-bold text-center mb-8">
           Finding the right fit{" "}
