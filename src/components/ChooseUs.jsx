@@ -122,7 +122,6 @@ import Image3 from "../assets/Tracking.png";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 
-// Array data for the component
 const ChooseUsData = [
   {
     title: "Onboard without the risk.",
@@ -158,8 +157,8 @@ const ChooseUsData = [
 
 const ChooseUs = () => {
   const [emblaRef] = useEmblaCarousel(
-    { loop: true, align: "start", draggable: false },
-    [Autoplay({ delay: 4000 })] // Autoplay with a delay of 4000ms (4 seconds)
+    { loop: true, align: "center", draggable: false },
+    [Autoplay({ delay: 3000 })] // Autoplay with a 3 second delay
   );
 
   return (
@@ -192,7 +191,7 @@ const ChooseUs = () => {
                 <div
                   key={index}
                   className="embla__slide flex-none p-4 lg:p-10 rounded-[20px] bg-white flex flex-col lg:flex-row items-center justify-between shadow-lg"
-                  style={{ minWidth: "80%", maxWidth: "90%" }}
+                  style={{ minWidth: "100%", maxWidth: "100%" }}
                 >
                   <div className="lg:max-w-[450px] w-full mb-4 lg:mb-0">
                     <p className="md:text-4xl text-xl font-bold mb-8">

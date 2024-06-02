@@ -49,31 +49,6 @@
   background: linear-gradient(180deg, #0c0c0c 0%, #202229 100%);
 }
 
-.embla {
-  overflow-y: hidden; /* This would help me prevent vertical scrolling */
-}
-
-.embla__container {
-  display: flex;
-  width: max-content; /* This would ensure my container expands to fit its content */
-}
-
-.embla__slide {
-  flex: 0 0 auto; /* This would prevent slides from shrinking */
-  display: flex;
-  flex-direction: column; /* Ensures vertical stacking of content */
-  align-items: center; /* Centers content horizontally */
-  justify-content: space-between; /* Ensures even spacing */
-  padding: 16px; /* Adjust padding as needed */
-}
-
-.embla__slide-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
 /* Enabling the dynamic hover */
 .group-hover\:translate-x-5:hover .group-hover\:translate-x-5 {
   transform: translateX(1.25rem); /* 5 * 0.25rem = 1.25rem */
@@ -81,27 +56,6 @@
 
 .group-hover\:opacity-100:hover .group-hover\:opacity-100 {
   opacity: 1;
-}
-
-@media (min-width: 768px) {
-  .embla__container {
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .embla__slide {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 40px;
-    width: 100%;
-  }
-
-  .embla__slide-content {
-    flex: 1;
-    text-align: left;
-    align-items: flex-start;
-  }
 }
 
 @media (min-width: 1024px) {
