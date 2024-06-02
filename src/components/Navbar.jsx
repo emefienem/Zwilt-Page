@@ -159,7 +159,7 @@ const Navbar = () => {
           {menuOpen && (
             <ul
               className="absolute right-0 mt-3 p-2 shadow bg-[#525AA0] w-52 rounded-lg z-30"
-              style={{ top: "calc(100% + 10px)" }}
+              style={{ top: "calc(100% + 10px)", zIndex: 30 }}
             >
               <li className="py-2 border-b border-gray-300">Find Work</li>
               <li className="py-2 border-b border-gray-300">Find Talent</li>
