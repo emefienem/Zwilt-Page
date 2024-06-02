@@ -64,7 +64,6 @@
 }
 
 .embla {
-  overflow-x: auto; /* This woukd help me allow horizontal scrolling for the embla container */
   overflow-y: hidden; /* This would help me prevent vertical scrolling */
 }
 
