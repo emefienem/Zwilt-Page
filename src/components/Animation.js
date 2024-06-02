@@ -1,6 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import "App.css"; // Path to my CSS file
+import "../App.css"; // Path to my CSS file
 
 const Animation = ({ className, children, animation }) => {
   const { ref, inView } = useInView({
