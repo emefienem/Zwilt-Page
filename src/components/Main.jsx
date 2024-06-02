@@ -41,15 +41,19 @@ const Main = () => {
     <section className="flex justify-center mt-20">
       <div className="w-full text-[#202229] flex flex-col items-center ">
         <h1 className="max-w-3xl md:text-5xl text-3xl font-bold text-center mb-8">
-          Finding the right fit
-          <img src={Gif} alt="Gif profile" className="text-[10px] w-12" /> has
-          never been easier.
+          Finding the right fit{" "}
+          <img
+            src={Gif}
+            alt="Gif profile"
+            className="inline-block w-12 align-middle"
+          />{" "}
+          has never been easier.
         </h1>
         <p className="text-center max-w-[569px] md:text-[21px] text-lg">
           With our rigorous pre-vetting process, you'll never have to worry
           about finding the ideal candidate ever again.
         </p>
-        <div className="w-full relative flex md:h-[64px]  max-w-[570px] my-10">
+        <div className="w-full relative flex md:h-[64px] max-w-[600px] md:max-w-[570px] my-10">
           <div className="md:text-base text-[10px] relative h-full font-semibold bg-white border-[1.5px] border-[#F0F0F0] border-r-0 rounded-2xl rounded-e-none py-3 pl-3 flex items-center text-nowrap left-2">
             Looking for
           </div>

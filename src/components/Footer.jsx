@@ -34,51 +34,54 @@ const Footer = () => {
 
         <div>
           <footer className="text-white">
-            <aside className="max-w-[284px]">
-              {/* Logo  image  */}
-              <img src={Logo} alt="Footer Logo" />
-              <p className="pt-6">
-                We take complex hiring processes - and simplify them. Connecting
-                you to the world&apos;s highly qualified talent pool.
-              </p>
+            <div className="flex flex-col md:flex-row space-x-20 md:space-x-0">
+              <aside className="max-w-[284px]">
+                {/* Logo  image  */}
+                <img src={Logo} alt="Footer Logo" />
+                <p className="pt-6">
+                  We take complex hiring processes - and simplify them.
+                  Connecting you to the world&apos;s highly qualified talent
+                  pool.
+                </p>
 
-              <p className="mb-4 mt-6 text-sm">LINKS AND REDIRECTS</p>
-              <div>
-                <Link
-                  to="/"
-                  className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 p-8"
-                >
-                  Hire now
-                </Link>
-                <Link
-                  to="/"
-                  className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white px-3 py-9"
-                >
-                  Apply now
-                </Link>
-              </div>
-            </aside>
+                <p className="mb-4 mt-6 text-sm">LINKS AND REDIRECTS</p>
+                <div>
+                  <Link
+                    to="/"
+                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 p-8"
+                  >
+                    Hire now
+                  </Link>
+                  <Link
+                    to="/"
+                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white px-3 py-9"
+                  >
+                    Apply now
+                  </Link>
+                </div>
+              </aside>
 
-            <div className="max-w-[700px] flex flex-col md:justify-self-end">
-              <p className="text-xl md:text-4xl font-bold md:font-semibold mb-8 mt-12">
-                Connecting the right people to the right businesses.
-              </p>
-              <div className="flex justify-between w-full gap-5">
-                {Links.map((link, index) => (
-                  <nav>
-                    <h2 className="mb-4 uppercase text-[10px] md:text-base">
-                      {link.heading}
-                    </h2>
-                    {link.links.map((item, index) => (
-                      <div className="mb-3">
-                        <Link to="/" key={index} className="text-sm">
-                          {item}
-                          <img src={Underline} alt="Underline" />
-                        </Link>
-                      </div>
-                    ))}
-                  </nav>
-                ))}
+              <div className="max-w-[700px] flex flex-col md:justify-self-end">
+                <p className="text-xl md:text-4xl font-bold md:font-semibold mb-8 mt-12">
+                  Connecting the right people to the right businesses.
+                </p>
+                <div className="flex justify-between w-full gap-5">
+                  {Links.map((link, index) => (
+                    <nav>
+                      <h2 className="mb-4 uppercase text-[12px] text-[#959595]">
+                        {link.heading}
+                      </h2>
+                      {link.links.map((item, index) => (
+                        <div className="mb-3">
+                          <Link to="/" key={index} className="text-sm">
+                            {item}
+                            <img src={Underline} alt="Underline" />
+                          </Link>
+                        </div>
+                      ))}
+                    </nav>
+                  ))}
+                </div>
               </div>
             </div>
           </footer>
