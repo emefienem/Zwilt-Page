@@ -174,7 +174,7 @@ const ChooseUs = () => {
             </p>
           </div>
         </div>
-        <div className="flex-1 lg:w-1/2 lg:flex lg:items-center lg:justify-center">
+        <div className="flex-1 lg:w-1/2 lg:flex lg:items-center lg:justify-center scrollbar-hide">
           <div className="embla" ref={emblaRef}>
             <div className="embla__container flex">
               {ChooseUsData.map((choose, index) => (
