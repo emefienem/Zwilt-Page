@@ -161,7 +161,7 @@ const ChooseUs = () => {
   );
 
   return (
-    <section className="gradient-bg text-[#202229] md:min-h-screen slanted-border lg:flex py-20">
+    <section className="gradient-bg text-[#202229] md:min-h-screen slanted-border lg:flex py-20 scrollbar-hide">
       <div className="section px-8 flex flex-col lg:flex-row lg:mt-0 w-full">
         <div className="flex-1 lg:w-1/2 flex flex-col justify-center lg:pr-8">
           <div className="max-w-[380px] mb-8 lg:mb-0">
