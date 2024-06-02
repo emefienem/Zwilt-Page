@@ -12,7 +12,7 @@ import Animation from "./components/Animation";
 
 function App() {
   return (
-    <div className="overflow-x-hidden scrollbar-hide">
+    <div>
       <div className="section p-8 z-[-1]">
         <Animation animation="fade-in-left">
           <Navbar />
