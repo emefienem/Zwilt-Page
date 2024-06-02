@@ -66,7 +66,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex items-end justify-end">
-        <div className="hidden lg:block">
+        <div className="hidden lg:block absolute top-3 ">
           <Link to="/login" className="mr-4">
             Login
           </Link>
