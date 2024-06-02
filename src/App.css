@@ -84,11 +84,6 @@
 }
 
 @media (min-width: 768px) {
-  body,
-  * {
-    overflow: visible;
-  }
-
   .embla__container {
     flex-wrap: wrap;
     width: 100%;
