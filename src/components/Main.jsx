@@ -53,8 +53,8 @@ const Main = () => {
           With our rigorous pre-vetting process, you'll never have to worry
           about finding the ideal candidate ever again.
         </p>
-        <div className="w-full relative flex md:h-[64px] max-w-[600px] md:max-w-[570px] my-10">
-          <div className="md:text-base text-[10px] relative h-full font-semibold bg-white border-[1.5px] border-[#F0F0F0] border-r-0 rounded-2xl rounded-e-none py-3 pl-3 flex items-center text-nowrap left-2">
+        <div className="w-full relative flex md:h-[64px] max-w-[650px] md:max-w-[570px] my-10">
+          <div className="md:text-base relative h-full font-semibold bg-white border-[1.5px] border-[#F0F0F0] border-r-0 rounded-2xl rounded-e-none py-3 pl-3 flex items-center text-nowrap left-2">
             Looking for
           </div>
           {/* Input field */}
