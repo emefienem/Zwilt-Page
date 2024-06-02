@@ -50,13 +50,13 @@
 }
 
 .markets-container {
-  overflow-x: auto !important; /* The !important would override the universal selector */
-  /* white-space: nowrap; Ensure items are in a single line for horizontal scroll */
+  overflow-x: auto !important; /* To override universl selector */
 }
 
 .markets {
   display: flex;
   flex-wrap: nowrap;
+  width: max-content; /* To Ensure the container expands to fit its content */
 }
 
 .market-item {
@@ -75,10 +75,11 @@
 
   .markets {
     flex-wrap: wrap;
+    width: 100%; /* Reset the width to fit the container */
   }
 
   .market-item {
-    flex: 1 0 21%; /* items per row on larger screens */
+    flex: 1 0 21%; /* Adjust this value based on how many items you want per row on larger screens */
   }
 }
 
