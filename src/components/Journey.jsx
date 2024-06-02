@@ -5,6 +5,7 @@ import Group3 from "../assets/group3.svg";
 import One from "../assets/one.svg";
 import Two from "../assets/two.svg";
 import Three from "../assets/three.svg";
+import DarkLogo from "../assets/dark-logo.svg";
 
 const Lists = [
   {
@@ -62,8 +63,18 @@ const Journey = () => {
                 {list.title}
               </h1>{" "}
               {/* Description of each list */}
-              <p className="text-base text-textGray">{list.description}</p>{" "}
-              <button>{list.text}</button>
+              <p className="text-base text-textGray">{list.description}</p>
+              {/* Hover on the 'list.text' so the arrow would move to the right and the bg of the image would also cover the 'list.text' */}
+              <div className="relative">
+                <button className="font-semibold text-sm hover:bg-[#e0e0e0] hover:bg-cover hover:bg-no-repeat">
+                  {list.text}
+                </button>
+                <img
+                  src={DarkLogo}
+                  alt="Dark Logo"
+                  className="absolute top-0 right-0 bg-[#e0e0e0] p-3 transition-transform duration-300 transform translate-x-0 hover:translate-x-full"
+                />
+              </div>
             </div>
           </div>
 
