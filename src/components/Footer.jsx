@@ -32,11 +32,11 @@ const Footer = () => {
             Need a job done, and done well? Get started
           </h1>
 
-          <div className="bg-black hover:bg-white rounded-2xl p-5 mt-5 invert hover:invert-0 hover:bg-[]">
+          <div className="bg-black rounded-2xl p-5 mt-5">
             <img
               src={DarkLogo}
               alt="Upside Down"
-              className="transfrom rotate-90"
+              className="transfrom rotate-90 invert-0"
             />
           </div>
         </div>
