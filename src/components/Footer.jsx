@@ -54,16 +54,16 @@ const Footer = () => {
                 </p>
 
                 <p className="mb-4 mt-6 text-sm">LINKS AND REDIRECTS</p>
-                <div className="mt-0 md:mt-12">
+                <div className="mt-4 md:mt-14">
                   <Link
                     to="/"
-                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 px-4 py-5"
+                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 px-4 py-3"
                   >
                     Hire now
                   </Link>
                   <Link
                     to="/"
-                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white px-4 py-5"
+                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white px-4 py-3"
                   >
                     Apply now
                   </Link>
