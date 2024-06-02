@@ -32,11 +32,11 @@ const Footer = () => {
             Need a job done, and done well? Get started
           </h1>
 
-          <div className="bg-[#AF7CFF] hover:bg-white rounded-2xl p-5 mt-5">
+          <div className="bg-black hover:bg-white rounded-2xl p-5 mt-5 invert-0 hover:invert">
             <img
               src={DarkLogo}
               alt="Upside Down"
-              className="transfrom rotate-90 text-white hover:bg-[#AF7CFF]"
+              className="transfrom rotate-90"
             />
           </div>
         </div>
@@ -57,7 +57,7 @@ const Footer = () => {
                 <div className="mt-4 md:mt-14">
                   <Link
                     to="/"
-                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 px-4 py-3"
+                    className="hover:bg-[#202229] hover:text-white border-none rounded-2xl bg-[#AF7CFF] text-[#A285D0] mr-3 px-4 py-3"
                   >
                     Hire now
                   </Link>
