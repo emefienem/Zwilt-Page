@@ -1,3 +1,8 @@
+.section {
+  max-width: 1280px;
+  margin: auto;
+}
+
 .fade-in-left {
   opacity: 0;
   transform: translateX(-50px);
@@ -44,11 +49,6 @@
   background: linear-gradient(180deg, #0c0c0c 0%, #202229 100%);
 }
 
-.section {
-  max-width: 1280px;
-  margin: auto;
-}
-
 .markets-container {
   overflow-x: auto !important; /* To override universl selector */
 }
@@ -61,6 +61,20 @@
 
 .market-item {
   flex: 0 0 auto;
+}
+
+.embla {
+  overflow-x: auto; /* This woukd help me allow horizontal scrolling for the embla container */
+  overflow-y: hidden; /* This would help me prevent vertical scrolling */
+}
+
+.embla__container {
+  display: flex;
+  width: max-content; /* This would ensure my container expands to fit its content */
+}
+
+.embla__slide {
+  flex: 0 0 auto; /* This would prevent slides from shrinking */
 }
 
 @media (min-width: 768px) {
