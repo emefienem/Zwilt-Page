@@ -73,14 +73,16 @@ const Journey = () => {
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
                 >
-                  <img
-                    src={DarkLogo}
-                    alt="Dark Logo"
-                    className={`bg-[#e0e0e0] p-3 absolute top-0 transition-all ${
-                      isHovered ? "left-24" : "left-0"
-                    }`}
-                    style={{ zIndex: 1 }}
-                  />
+                  <div className="relative">
+                    <img
+                      src={DarkLogo}
+                      alt="Dark Logo"
+                      className={`bg-[#e0e0e0] p-3 absolute top-0 transition-all ${
+                        isHovered === index ? "left-24 w-full" : "left-0 w-auto"
+                      }`}
+                      style={{ zIndex: 1 }}
+                    />
+                  </div>
                   <button className="font-semibold text-sm z-10">
                     {list.text}
                   </button>
