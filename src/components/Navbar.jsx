@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { MenuIcon } from "../assets/svgIcons";
+import activeIndicatorImage from "../assets/line.svg";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [activeElement, setActiveElement] = useState(null);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -58,11 +60,51 @@ const Navbar = () => {
       </div>
       <div className="justify-center items-center hidden lg:flex">
         <ul className="flex flex-row space-x-7">
-          <li>Find Work</li>
-          <li>Find Talent</li>
-          <li>Articles</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
+          <li
+            className={activeElement === "find-work" ? "active" : ""}
+            onClick={() => setActiveElement("find-work")}
+          >
+            Find Work
+            {activeElement === "find-work" && (
+              <img src={activeIndicatorImage} alt="active" className="ml-1" />
+            )}
+          </li>
+          <li
+            className={activeElement === "find-talent" ? "active" : ""}
+            onClick={() => setActiveElement("find-talent")}
+          >
+            Find Talent
+            {activeElement === "find-talent" && (
+              <img src={activeIndicatorImage} alt="active" className="ml-1" />
+            )}
+          </li>
+          <li
+            className={activeElement === "articles" ? "active" : ""}
+            onClick={() => setActiveElement("articles")}
+          >
+            Articles
+            {activeElement === "articles" && (
+              <img src={activeIndicatorImage} alt="active" className="ml-1" />
+            )}
+          </li>
+          <li
+            className={activeElement === "about-us" ? "active" : ""}
+            onClick={() => setActiveElement("about-us")}
+          >
+            About Us
+            {activeElement === "about-us" && (
+              <img src={activeIndicatorImage} alt="active" className="ml-1" />
+            )}
+          </li>
+          <li
+            className={activeElement === "contact-us" ? "active" : ""}
+            onClick={() => setActiveElement("contact-us")}
+          >
+            Contact Us
+            {activeElement === "contact-us" && (
+              <img src={activeIndicatorImage} alt="active" className="ml-1" />
+            )}
+          </li>
         </ul>
       </div>
       <div className="flex items-end justify-end">
