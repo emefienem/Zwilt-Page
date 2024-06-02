@@ -52,15 +52,6 @@
 
 // export default Faq;
 
-import React, { useState } from "react";
-import YellowLogo from "../assets/yellow-logo.svg";
-
-const faqsQuestion = [
-  "I want to work part-time, is that possible",
-  "How long are the average projects?",
-  "How does the payment works?",
-  "How much can I earn?",
-];
 const Faq = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
@@ -76,6 +67,9 @@ const Faq = () => {
             <div key={i}>
               {faqsQuestion.map((faq, j) => (
                 <div key={j} className="flex group">
+                  {j === 0 && i !== 0 && (
+                    <div className="w-full border-t border-[#D6D6D6] my-4"></div>
+                  )}
                   <div
                     className={`md:w-[20%] py-7 px-3 text-center border border-[#D6D6D6] group-hover:bg-[#E8E8E8] ${
                       j !== 0 && "border-r-0"

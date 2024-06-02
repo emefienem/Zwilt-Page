@@ -36,7 +36,7 @@ const Footer = () => {
             <img
               src={DarkLogo}
               alt="Upside Down"
-              className="transfrom rotate-90 invert-0"
+              className="transfrom rotate-90 invert"
             />
           </div>
         </div>
@@ -57,13 +57,13 @@ const Footer = () => {
                 <div className="mt-4 md:mt-14">
                   <Link
                     to="/"
-                    className="hover:bg-[#202229] hover:text-white border-none rounded-2xl text-[#AF7CFF] bg-[#A285D0] mr-3 px-4 py-3"
+                    className="bg-[#202229] hover:text-white border-none rounded-2xl text-[#AF7CFF] mr-3 px-4 py-3"
                   >
                     Hire now
                   </Link>
                   <Link
                     to="/"
-                    className="hover:bg-[#202229] border-none rounded-2xl bg-[#A285D0] text-[#AF7CFF] hover:text-white px-4 py-3"
+                    className="bg-[#202229] border-none rounded-2xl text-[#AF7CFF] hover:text-white px-4 py-3"
                   >
                     Apply now
                   </Link>
