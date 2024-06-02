@@ -61,6 +61,7 @@ const Screening = () => {
               name="my-accordion-3"
               checked={openItem === list.id}
               onChange={() => toggleHandler(list.id)}
+              className="hidden"
             />
             <div className="text-xl font-medium flex items-center gap-4">
               <div

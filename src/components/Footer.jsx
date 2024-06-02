@@ -66,7 +66,7 @@ const Footer = () => {
               <div className="flex justify-between w-full gap-5">
                 {Links.map((link, index) => (
                   <nav>
-                    <h2 className="mb-4 uppercase">{link.heading}</h2>
+                    <h2 className="mb-4 uppercase text-sm">{link.heading}</h2>
                     {link.links.map((item, index) => (
                       <div className="mb-3">
                         <Link to="/" key={index} className="text-sm">
