@@ -71,7 +71,7 @@ const Navbar = () => {
               <img
                 src={activeIndicatorImage}
                 alt="active"
-                className="ml-1 w-10"
+                className="ml-1 w-12"
               />
             )}
           </li>
@@ -86,7 +86,7 @@ const Navbar = () => {
               <img
                 src={activeIndicatorImage}
                 alt="active"
-                className="ml-1 w-10"
+                className="ml-1 w-12"
               />
             )}
           </li>
@@ -101,7 +101,7 @@ const Navbar = () => {
               <img
                 src={activeIndicatorImage}
                 alt="active"
-                className="ml-1 w-10"
+                className="ml-1 w-12"
               />
             )}
           </li>
@@ -116,7 +116,7 @@ const Navbar = () => {
               <img
                 src={activeIndicatorImage}
                 alt="active"
-                className="ml-1 w-10"
+                className="ml-1 w-12"
               />
             )}
           </li>
@@ -131,7 +131,7 @@ const Navbar = () => {
               <img
                 src={activeIndicatorImage}
                 alt="active"
-                className="ml-1 w-10"
+                className="ml-1 w-12"
               />
             )}
           </li>
