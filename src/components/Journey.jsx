@@ -46,7 +46,7 @@ const Journey = () => {
       {Lists.map((list, index) => (
         <div
           key={index}
-          className={`slanted-border py-5 md:py-0 px-3 md:pl-7 md:pr-0 flex justify-between mb-2 hover:scale-90 cursor-pointer`}
+          className={`slanted-border py-5 md:py-0 px-3 md:pl-7 md:pr-0 flex justify-between mb-2 hover:scale-90 duration-300 cursor-pointer`}
           style={{ backgroundColor: list.color }}
         >
           <div className="flex gap-5 px-3 py-5 md:mt-4 md:py-16">
@@ -63,6 +63,7 @@ const Journey = () => {
               </h1>{" "}
               {/* Description of each list */}
               <p className="text-base text-textGray">{list.description}</p>{" "}
+              <button>{list.text}</button>
             </div>
           </div>
 

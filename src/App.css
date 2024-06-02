@@ -49,20 +49,6 @@
   background: linear-gradient(180deg, #0c0c0c 0%, #202229 100%);
 }
 
-.markets-container {
-  overflow-x: auto !important; /* To override universl selector */
-}
-
-.markets {
-  display: flex;
-  flex-wrap: nowrap;
-  width: max-content; /* To Ensure the container expands to fit its content */
-}
-
-.market-item {
-  flex: 0 0 auto;
-}
-
 .embla {
   overflow-y: hidden; /* This would help me prevent vertical scrolling */
 }

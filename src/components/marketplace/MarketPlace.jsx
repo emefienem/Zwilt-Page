@@ -29,10 +29,10 @@ const MarketPlace = () => {
         ))}
 
         <div className="flex items-center justify-between gap-2 lg:gap-20 md:text-[22px]">
-          {/* <div className="flex space-x-3">
+          <div className="flex space-x-3">
             <img src={DarkLogo} alt="Dark Logo" />
             Explore more
-          </div> */}
+          </div>
           <div className="md:absolute md:left-[46.5%]">
             <p>
               30 more <span className="text-[#202229CC]">to explore</span>

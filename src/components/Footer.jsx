@@ -34,8 +34,8 @@ const Footer = () => {
 
         <div>
           <footer className="text-white">
-            <div className="flex flex-col md:flex-row space-x-0 md:space-x-24">
-              <aside className="max-w-[284px]">
+            <div className="flex flex-col md:flex-row space-x-0 md:space-x-32">
+              <aside className="max-w-[300px]">
                 {/* Logo  image  */}
                 <img src={Logo} alt="Footer Logo" />
                 <p className="pt-6">
@@ -48,13 +48,13 @@ const Footer = () => {
                 <div className="mt-0 md:mt-12">
                   <Link
                     to="/"
-                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 px-4 py-6"
+                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 px-4 py-5"
                   >
                     Hire now
                   </Link>
                   <Link
                     to="/"
-                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white px-4 py-6"
+                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white px-4 py-5"
                   >
                     Apply now
                   </Link>

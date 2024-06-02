@@ -29,7 +29,7 @@ const JasonGroove = () => {
                 className="inline mt-2 w-36 md:w-auto"
               />
             </h1>
-            <p className="md:text-xl text-[#959595]">
+            <p className="md:text-xl text-[#959595] font-bold">
               Zwilt enabled us to deliver on time and they&apos;ve been heavy
               hitters in our corner since.
             </p>
@@ -40,7 +40,7 @@ const JasonGroove = () => {
                 <img
                   src={DarkLogo}
                   alt="Left Dark Logo"
-                  className="transform rotate-180 px-2 py-4"
+                  className="transform rotate-180 px-4 py-4 text-[#AF7CFF] hover:text-black w-8"
                 />
               </div>
               {/* Forward Logo */}
@@ -48,13 +48,13 @@ const JasonGroove = () => {
                 <img
                   src={DarkLogo}
                   alt="Right Dark Logo"
-                  className="px-2 py-4"
+                  className="px-4 py-4 text-[#AF7CFF] hover:text-black w-8"
                 />
               </div>
             </div>
           </div>
 
-          <div className="max-w-lg mt-10">
+          <div className="max-w-lg md:mt-24 mt-16">
             <div className="flex items-center gap-2">
               {/* Groove logo */}
               <div className="md:w-[102px] md:h-[90px] w-[78px] h-[78px] md:rounded-[40px] rounded-[28px] bg-[#AF7CFF] flex items-center justify-center">
@@ -72,7 +72,7 @@ const JasonGroove = () => {
                 <p className="text-[#959595]">San Francisco</p>
               </div>
             </div>
-            <p className="md:text-xl mt-10 text-[#959595] w-full md:w-[450px]">
+            <p className="md:text-xl mt-10 text-[#959595] w-full md:w-[450px] font-bold">
               Zwilt enabled us to deliver on time and they&apos;ve been heavy
               hitters in our corner since. Zwilt enabled us to deliver on time
               and they&apos;ve been heavy hitters in our corner since. Zwilt
