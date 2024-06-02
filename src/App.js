@@ -12,7 +12,7 @@ import Animation from "./components/Animation";
 
 function App() {
   return (
-    <>
+    <div className="scrollbar-hide">
       <div className="section p-8 z-[-1]">
         <Animation animation="fade-in-left">
           <Navbar />
@@ -38,7 +38,7 @@ function App() {
         <Faq />
       </Animation>
       <Footer />
-    </>
+    </div>
   );
 }
 
