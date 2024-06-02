@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Underline from "../assets/line.svg";
 import Logo from "../assets/logo2.svg";
 import DarkLogo from "../assets/dark-logo.svg";
+
 const Links = [
   {
     heading: "Platform",

@@ -2,6 +2,7 @@ import React from "react";
 import { Markets } from "../../utility";
 import LeftPart from "./LeftPart";
 import RightPart from "./RightPart";
+import DarkLogo from "../../assets/dark-logo.svg";
 
 const MarketPlace = () => {
   return (
