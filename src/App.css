@@ -74,6 +74,19 @@
   text-align: center;
 }
 
+/* Enabling the dynamic hover */
+.group-hover\:translate-x-5:hover .group-hover\:translate-x-5 {
+  transform: translateX(1.25rem); /* 5 * 0.25rem = 1.25rem */
+}
+
+.group-hover\:opacity-100:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group-hover\:translate-x-0:hover .group-hover\:translate-x-0 {
+  transform: translateX(0);
+}
+
 @media (min-width: 768px) {
   body,
   * {
