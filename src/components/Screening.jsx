@@ -104,7 +104,7 @@ const Screening = () => {
                 className="text-base tracking-[1px] mx-[37px] h-[50px] flex items-center pt-7 py-2"
               >
                 <span className="font-semibold">Step {list.id}: </span>
-                {item.title}
+                {list.title}
               </label>
             </div>
             <div className="absolute top-0 right-8  transition-transform duration-500 rotate-0 peer-checked:rotate-180 cursor-pointer text-white">
@@ -124,7 +124,7 @@ const Screening = () => {
               </svg>
             </div>
             <div className="max-h-0 overflow-hidden peer-checked:max-h-full text-base">
-              {item.description}
+              {list.description}
             </div>
           </div>
         ))}
