@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Group1 from "../assets/group1.svg";
 import Group2 from "../assets/group2.svg";
 import Group3 from "../assets/group3.svg";
@@ -38,8 +38,6 @@ const Lists = [
 ];
 
 const Journey = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
   return (
     <div className="md:py-20">
       <h1 className="md:text-5xl text-3xl font-bold mb-8 text-center">

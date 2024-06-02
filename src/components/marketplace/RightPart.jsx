@@ -1,17 +1,10 @@
 import React from "react";
-import Logo from "../../assets/dark-logo.svg";
 
 const RightPart = ({ markets }) => {
   return (
     <div className="bg-white rounded-lg p-7">
       <p className="mb-5 font-semibold">{markets.title}</p>
-      <div className="flex items-start gap-2 w-full overflow-x-auto md:overflow-x-hidden scrollbar-hide">
-        {markets.id === 1 && (
-          <img
-            src={Logo}
-            className="rotate-180 bg-[#F6F6F6] md:w-[44px] w-[44px]"
-          />
-        )}
+      <div className="flex items-start gap-0 w-full overflow-x-auto md:overflow-x-hidden scrollbar-hide">
         {markets.markets.map((market, index) => (
           <div
             key={index}
