@@ -83,10 +83,6 @@
   opacity: 1;
 }
 
-.group-hover\:translate-x-0:hover .group-hover\:translate-x-0 {
-  transform: translateX(0);
-}
-
 @media (min-width: 768px) {
   body,
   * {
