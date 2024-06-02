@@ -17,7 +17,7 @@ const Faq = () => {
         </h1>
 
         <div className="flex flex-col">
-          {["General", ["General", "Joining Process"]].map((item, i) => (
+          {["General", ["General", , "Joining Process"]].map((item, i) => (
             <div key={i}>
               {faqsQuestion.map((faq, i) => (
                 <div key={i} className={"flex group"}>
