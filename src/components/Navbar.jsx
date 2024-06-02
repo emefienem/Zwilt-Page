@@ -61,7 +61,9 @@ const Navbar = () => {
       <div className="justify-center items-center hidden lg:flex">
         <ul className="flex flex-row space-x-7 cursor-pointer">
           <li
-            className={activeElement === "find-work" ? "active" : ""}
+            className={`${
+              activeElement === "find-work" ? "active" : ""
+            } cursor-pointer`}
             onClick={() => setActiveElement("find-work")}
           >
             Find Work
@@ -69,12 +71,14 @@ const Navbar = () => {
               <img
                 src={activeIndicatorImage}
                 alt="active"
-                className="ml-1 w-3"
+                className="ml-1 w-10"
               />
             )}
           </li>
           <li
-            className={activeElement === "find-talent" ? "active" : ""}
+            className={`${
+              activeElement === "find-talent" ? "active" : ""
+            } cursor-pointer`}
             onClick={() => setActiveElement("find-talent")}
           >
             Find Talent
@@ -82,12 +86,14 @@ const Navbar = () => {
               <img
                 src={activeIndicatorImage}
                 alt="active"
-                className="ml-1 w-3"
+                className="ml-1 w-10"
               />
             )}
           </li>
           <li
-            className={activeElement === "articles" ? "active" : ""}
+            className={`${
+              activeElement === "articles" ? "active" : ""
+            } cursor-pointer`}
             onClick={() => setActiveElement("articles")}
           >
             Articles
@@ -95,12 +101,14 @@ const Navbar = () => {
               <img
                 src={activeIndicatorImage}
                 alt="active"
-                className="ml-1 w-3"
+                className="ml-1 w-10"
               />
             )}
           </li>
           <li
-            className={activeElement === "about-us" ? "active" : ""}
+            className={`${
+              activeElement === "about-us" ? "active" : ""
+            } cursor-pointer`}
             onClick={() => setActiveElement("about-us")}
           >
             About Us
@@ -108,12 +116,14 @@ const Navbar = () => {
               <img
                 src={activeIndicatorImage}
                 alt="active"
-                className="ml-1 w-3"
+                className="ml-1 w-10"
               />
             )}
           </li>
           <li
-            className={activeElement === "contact-us" ? "active" : ""}
+            className={`${
+              activeElement === "contact-us" ? "active" : ""
+            } cursor-pointer`}
             onClick={() => setActiveElement("contact-us")}
           >
             Contact Us
@@ -121,7 +131,7 @@ const Navbar = () => {
               <img
                 src={activeIndicatorImage}
                 alt="active"
-                className="ml-1 w-3"
+                className="ml-1 w-10"
               />
             )}
           </li>
