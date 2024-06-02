@@ -32,7 +32,7 @@ const Footer = () => {
             Need a job done, and done well? Get started
           </h1>
 
-          <div className="bg-[#AF7CFF] hover:bg-white rounded-2xl">
+          <div className="bg-[#AF7CFF] hover:bg-white rounded-2xl p-5 mt-5">
             <img
               src={DarkLogo}
               alt="Upside Down"

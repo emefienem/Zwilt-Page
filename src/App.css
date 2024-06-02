@@ -77,7 +77,7 @@
 @media (min-width: 768px) {
   body,
   * {
-    overflow-x: visible;
+    overflow: visible;
   }
 
   .embla__container {
