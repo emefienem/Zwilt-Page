@@ -4,7 +4,7 @@ const RightPart = ({ markets }) => {
   return (
     <div className="bg-white rounded-lg p-7">
       <p className="mb-5 font-semibold">{markets.title}</p>
-      <div className="flex items-start gap-5 w-full">
+      <div className="flex items-start gap-5 w-full overflow-x-auto md:overflow-x-hidden">
         {markets.markets.map((market, index) => (
           <div
             key={index}
