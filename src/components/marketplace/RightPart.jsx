@@ -10,7 +10,7 @@ const RightPart = ({ markets }) => {
             key={index}
             className="flex-shrink-0 flex flex-col flex-wrap items-center gap-2 min-w-[100px] sm:min-w-[120px]"
           >
-            <div className="w-[76px] h-[76px] lg:w-[86px] lg:h-[86px] rounded-full flex items-center justify-center bg-[#F6F6F6] hover:scale-125 cursor-pointer">
+            <div className="w-[76px] h-[76px] lg:w-[96px] lg:h-[86px] rounded-full flex items-center justify-center bg-[#F6F6F6] hover:scale-125 cursor-pointer">
               <img src={market.icon} alt={market.text} />
             </div>
             <p className="text-sm max-w-[50px] text-center">{market.text}</p>
