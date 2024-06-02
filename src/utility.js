@@ -86,7 +86,7 @@ export const Markets = [
       title: "Design & Creative",
       markets: [
         {
-          icon: <Logo className="rotate-180" />,
+          icon: <img src={Logo} alt="Logo" className="rotate-180" />,
         },
         {
           icon: Figma,
