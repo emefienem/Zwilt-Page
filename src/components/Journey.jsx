@@ -69,7 +69,7 @@ const Journey = () => {
               {/* Hover on the 'list.text' so the arrow would move to the right and the bg of the image would also cover the 'list.text' */}
               <div className="relative">
                 <div
-                  className="relative flex space-x-8 items-center"
+                  className="relative flex items-center"
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
                 >
@@ -78,7 +78,7 @@ const Journey = () => {
                       src={DarkLogo}
                       alt="Dark Logo"
                       className={`bg-[#e0e0e0] p-3 absolute top-0 transition-all ${
-                        isHovered === index ? "left-24 w-full" : "left-0 w-auto"
+                        isHovered === index ? "w-full" : "w-auto"
                       }`}
                       style={{ zIndex: 1 }}
                     />
