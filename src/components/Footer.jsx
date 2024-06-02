@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div>
           <footer className="text-white">
-            <div className="flex flex-col md:flex-row space-x-20 md:space-x-0">
+            <div className="flex flex-col md:flex-row space-x-0 md:space-x-20">
               <aside className="max-w-[284px]">
                 {/* Logo  image  */}
                 <img src={Logo} alt="Footer Logo" />
@@ -45,16 +45,16 @@ const Footer = () => {
                 </p>
 
                 <p className="mb-4 mt-6 text-sm">LINKS AND REDIRECTS</p>
-                <div>
+                <div className="mt-0 md:mt-12">
                   <Link
                     to="/"
-                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 p-8"
+                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 px-4 py-6"
                   >
                     Hire now
                   </Link>
                   <Link
                     to="/"
-                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white px-3 py-9"
+                    className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white px-4 py-6"
                   >
                     Apply now
                   </Link>
@@ -62,7 +62,7 @@ const Footer = () => {
               </aside>
 
               <div className="max-w-[700px] flex flex-col md:justify-self-end">
-                <p className="text-xl md:text-4xl font-bold md:font-semibold mb-8 mt-12">
+                <p className="text-xl md:text-4xl font-bold mb-8 mt-12 md:mt-0">
                   Connecting the right people to the right businesses.
                 </p>
                 <div className="flex justify-between w-full gap-5">
