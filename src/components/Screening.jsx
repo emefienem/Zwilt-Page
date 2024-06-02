@@ -56,7 +56,7 @@ const Screening = () => {
         {/* Mapping through the 'ScreeningList' to get necessary details */}
         {screeningList.map((list) => (
           <div key={list.id} className="bg-white border border-[#F0F0F0] mb-2">
-            {/* <input
+            <input
               type="radio"
               name="my-accordion-3"
               checked={openItem === list.id}
@@ -81,50 +81,6 @@ const Screening = () => {
             </div>
             <div className="text-base">
               <p>{list.description}</p>
-            </div> */}
-
-            <input
-              type="checkbox"
-              id="input"
-              className="absolute top-0 inset-x-0 peer opacity-0 z-10 w-full h-12"
-              onChange={() => toggleHandler(list.id)}
-            />
-            <div
-              className={`w-[54px] h-[54px] rounded-full flex items-center justify-center ${
-                openItem === list.id ? "bg-[#8BA4FD]" : "bg-[#ECECEC]"
-              }`}
-            >
-              <img
-                src={openItem === list.id ? PlayIconWhite : PlayIconDark}
-                alt="play icon"
-                className=""
-              />
-              <label
-                htmlFor="input"
-                className="text-base tracking-[1px] mx-[37px] h-[50px] flex items-center pt-7 py-2"
-              >
-                <span className="font-semibold">Step {list.id}: </span>
-                {list.title}
-              </label>
-            </div>
-            <div className="absolute top-0 right-8  transition-transform duration-500 rotate-0 peer-checked:rotate-180 cursor-pointer text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                />
-              </svg>
-            </div>
-            <div className="max-h-0 overflow-hidden peer-checked:max-h-full text-base">
-              {list.description}
             </div>
           </div>
         ))}
