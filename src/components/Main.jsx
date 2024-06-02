@@ -48,16 +48,16 @@ const Main = () => {
           about finding the ideal candidate ever again.
         </p>
         <div className="w-full relative flex md:h-[64px]  max-w-[570px] my-10">
-          <div className="text-sm relative h-full font-semibold bg-white border-[1.5px] border-[#F0F0F0] border-r-0 rounded-2xl rounded-e-none py-3 pl-3 flex items-center text-nowrap left-2">
+          <div className="relative h-full font-semibold bg-white border-[1.5px] border-[#F0F0F0] border-r-0 rounded-2xl rounded-e-none py-3 pl-3 flex items-center text-nowrap left-2">
             Looking for
           </div>
           {/* Input field */}
           <input
             type="text"
             placeholder="design |"
-            className="w-full h-full bg-white border-[1.5px] border-[#F0F0F0] border-l-0 rounded-e-none focus:outline-none pl-3"
+            className="w-full h-full bg-white border-[1.5px] border-[#F0F0F0] border-l-0 rounded-e-none focus:outline-none pl-5 md:pl-3"
           />
-          <button className="relative right-8 h-full bg-[#FFBE2E] border-none hover:bg-[#FFBE2E] w-[74px] rounded-xl">
+          <button className="relative right-8 h-full bg-[#FFBE2E] border-none hover:bg-[#FFBE2E] md:w-[74px] w-[85px] md rounded-xl">
             {/* Input image */}
             <img src={DarkLogo} alt="Dark Logo" className="relative left-4" />
           </button>
@@ -70,7 +70,7 @@ const Main = () => {
                 key={index}
                 role="tab"
                 onClick={() => setActiveTab(tab)}
-                className={`h-[44px] tab rounded-2xl text-[#202229] font-semibold p-3 pr-5 ${
+                className={`h-[44px] tab rounded-2xl text-[#202229] font-semibold p-3 pr-5 text-sm ${
                   activeTab === tab
                     ? "tab-active bg-[#C7F4C2]"
                     : "bg-[#D2D2D2] bg-opacity-15"

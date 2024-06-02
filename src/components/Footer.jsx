@@ -37,7 +37,7 @@ const Footer = () => {
             <aside className="max-w-[284px]">
               {/* Logo  image  */}
               <img src={Logo} alt="Footer Logo" />
-              <p>
+              <p className="pt-6">
                 We take complex hiring processes - and simplify them. Connecting
                 you to the world&apos;s highly qualified talent pool.
               </p>
@@ -46,13 +46,13 @@ const Footer = () => {
               <div>
                 <Link
                   to="/"
-                  className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3"
+                  className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white mr-3 p-4"
                 >
                   Hire now
                 </Link>
                 <Link
                   to="/"
-                  className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white"
+                  className="bg-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white px-3 py-4"
                 >
                   Apply now
                 </Link>
@@ -60,7 +60,7 @@ const Footer = () => {
             </aside>
 
             <div className="max-w-[700px] flex flex-col md:justify-self-end">
-              <p className="text-xl md:text-4xl font-semibold mb-8">
+              <p className="text-xl md:text-4xl font-bold md:font-semibold mb-8 mt-12">
                 Connecting the right people to the right businesses.
               </p>
               <div className="flex justify-between w-full gap-5">
@@ -69,7 +69,7 @@ const Footer = () => {
                     <h2 className="mb-4 uppercase">{link.heading}</h2>
                     {link.links.map((item, index) => (
                       <div className="mb-3">
-                        <Link to="/" key={index} className="">
+                        <Link to="/" key={index} className="text-sm">
                           {item}
                           <img src={Underline} alt="Underline" />
                         </Link>
