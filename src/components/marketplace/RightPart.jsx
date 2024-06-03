@@ -6,9 +6,6 @@ const RightPart = ({ markets }) => {
     <div className="bg-white rounded-lg p-7">
       <p className="mb-5 font-semibold">{markets.title}</p>
       <div className="flex items-start gap-1 w-full overflow-x-auto md:overflow-x-hidden scrollbar-hide">
-        {markets.id === 1 && (
-          <img src={DarkLogo} className="rotate-180 bg-[#F6F6F6]" />
-        )}
         {markets.markets.map((market, index) => (
           <div
             key={index}

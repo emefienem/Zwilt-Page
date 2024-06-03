@@ -85,9 +85,9 @@ export const Markets = [
       id: 1,
       title: "Design & Creative",
       markets: [
-        // {
-        //   icon: Logo,
-        // },
+        {
+          icon: Logo,
+        },
         {
           icon: Figma,
           text: "UX Designer",
