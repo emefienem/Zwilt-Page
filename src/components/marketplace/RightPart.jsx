@@ -1,4 +1,5 @@
 import React from "react";
+import Dark from "../../assets/dark-logo.svg";
 
 const RightPart = ({ markets }) => {
   return (
@@ -11,6 +12,9 @@ const RightPart = ({ markets }) => {
             className="flex-shrink-0 flex flex-col flex-wrap gap-1 items-center min-w-[95px] sm:min-w-[105px]"
           >
             <div className="w-[76px] h-[76px] lg:w-[86px] lg:h-[86px] rounded-full flex items-center justify-center bg-[#F6F6F6] hover:scale-125 cursor-pointer">
+              {markets.id === 1 && (
+                <img src={DarkLogo} className="rotate-180" />
+              )}
               <img src={market.icon} alt={market.text} />
             </div>
             <p className="text-sm max-w-[50px] text-center">{market.text}</p>

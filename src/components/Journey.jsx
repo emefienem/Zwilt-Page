@@ -64,7 +64,7 @@ const Journey = () => {
               </h1>{" "}
               {/* Description of each list */}
               <p className="text-base text-[#959595]">{list.description}</p>
-              <div className="flex space-x-4 hover:bg-black hover:rounded-xl hover:text-white cursor-pointer">
+              <div className="flex space-x-4 hover:bg-black hover:rounded-xl hover:text-white cursor-pointer duration-300">
                 <div className="bg-black p-4 rounded-xl hover:w-20">
                   <img src={DarkLogo} alt="Dark Logo" className="invert" />
                 </div>
