@@ -161,12 +161,12 @@ const Navbar = () => {
               className="absolute right-0 top-5 mt-3 p-2 shadow bg-[#525AA0] w-auto rounded-lg z-30 flex flex-col space-x-5"
               style={{ top: "calc(100% + 10px)", zIndex: 30 }}
             >
-              <div className="flex flex-row">
-                <li className="border-b border-gray-300">Find Work</li>
-                <li className="border-b border-gray-300">Find Talent</li>
+              <div className="flex flex-row space-x-3">
+                <li className="border-b border-gray-300">Work</li>
+                <li className="border-b border-gray-300">Talent</li>
                 <li className="border-b border-gray-300">Articles</li>
               </div>
-              <div className="flex flex-row">
+              <div className="flex flex-row space-x-3">
                 <li className="border-b border-gray-300">About</li>
                 <li className="border-b border-gray-300">Contact</li>
                 <li className="border-b border-gray-300">Login</li>
