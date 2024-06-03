@@ -31,8 +31,8 @@ const MarketPlace = () => {
         ))}
 
         <div className="flex items-center justify-between gap-2 lg:gap-20 md:text-[22px]">
-          <div className="flex items-center space-x-3 hover:bg-black hover:rounded-xl">
-            <div className="bg-black p-4 rounded-xl hover:w-20 md:hover:w-10">
+          <div className="flex items-center space-x-3 hover:bg-black hover:rounded-xl hover:text-white">
+            <div className="bg-black p-4 rounded-xl hover:w-20 md:hover:w-12">
               <img src={DarkLogo} alt="Dark Logo" className="invert" />
             </div>
             <span className="font-semibold z-10 hover:text-white">
