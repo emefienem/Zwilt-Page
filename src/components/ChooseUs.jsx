@@ -219,7 +219,7 @@ const ChooseUs = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="flex-shrink-0 lg:w-[40%] lg:pl-6">
+                  <div className="flex-shrink-0 lg:w-[50%] lg:pl-6">
                     <img
                       src={choose.image}
                       alt={choose.title}
