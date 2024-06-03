@@ -31,25 +31,14 @@ const MarketPlace = () => {
         ))}
 
         <div className="flex items-center justify-between gap-2 lg:gap-20 md:text-[22px]">
-          {/* <div className="relative flex items-center space-x-3 group overflow-hidden"> */}
-          {/* Hover for transition */}
-          {/* <div className="flex items-center space-x-3 hover:bg-black cursor-pointer p-4 rounded-xl ">
-            <div className="flex items-center space-x-3">
-              <div className="bg-black p-4">
-                <img src={DarkLogo} alt="Dark Logo" className="w-6 h-6" />
-              </div>
-              <span className="hover:text-white">Explore more</span>
-            </div>
-          </div> */}
-          <div className="flex space-x-4 hover:bg-black hover:rounded-xl">
+          <div className="flex items-center space-x-3 hover:bg-black hover:rounded-xl">
             <div className="bg-black p-4 rounded-xl hover:w-20 md:hover:w-10">
               <img src={DarkLogo} alt="Dark Logo" className="invert" />
             </div>
-            <span className="font-semibold text-base z-10 hover:text-white">
+            <span className="font-semibold z-10 hover:text-white">
               Explore more
             </span>
           </div>
-          {/* </div> */}
           <div className="md:absolute md:left-[46.5%]">
             <p>
               30 more <span className="text-[#202229CC]">to explore</span>
