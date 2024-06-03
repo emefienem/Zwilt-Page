@@ -84,13 +84,25 @@ const ChooseUs = () => {
                           <span>{each}</span>
                         </div>
                       ))}
+                      <div className="flex space-x-4 hover:bg-black hover:rounded-xl hover:text-white cursor-pointer">
+                        <div className="bg-black p-4 rounded-xl hover:w-20">
+                          <img
+                            src={DarkLogo}
+                            alt="Dark Logo"
+                            className="invert"
+                          />
+                        </div>
+                        <button className="font-semibold text-base z-10 hover:text-white px-3">
+                          Learn more
+                        </button>
+                      </div>
                     </div>
                   </div>
                   <div className="flex-shrink-0">
                     <img
                       src={choose.image}
                       alt={choose.title}
-                      className="md:w-[520px] md:h-[520px] w-[300px] h-[300px]"
+                      className="md:w-[500px] md:h-[520px] w-[300px] h-[300px]"
                     />
                   </div>
                 </div>

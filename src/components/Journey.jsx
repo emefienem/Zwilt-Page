@@ -68,7 +68,7 @@ const Journey = () => {
                 <div className="bg-black p-4 rounded-xl hover:w-20">
                   <img src={DarkLogo} alt="Dark Logo" className="invert" />
                 </div>
-                <button className="font-semibold text-base z-10 hover:text-white">
+                <button className="font-semibold text-base z-10 hover:text-white px-3">
                   {list.text}
                 </button>
               </div>
