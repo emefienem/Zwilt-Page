@@ -59,15 +59,15 @@ const ChooseUs = () => {
           </div>
         </div>
         <div className="flex-1 lg:w-1/2 lg:flex lg:items-center lg:justify-center scrollbar-hide">
-          <div className="embla" ref={emblaRef}>
-            <div className="embla__container flex">
+          <div ref={emblaRef}>
+            <div className="flex">
               {ChooseUsData.map((choose, index) => (
                 <div
                   key={index}
-                  className="embla__slide flex-none p-4 lg:p-10 rounded-[20px] bg-white flex flex-col lg:flex-row items-center justify-between shadow-lg"
+                  className="flex-none p-4 lg:p-10 rounded-[20px] bg-white flex flex-col lg:flex-row items-center justify-between shadow-lg"
                   style={{ minWidth: "100%", maxWidth: "100%" }}
                 >
-                  <div className="lg:max-w-[750px] w-full mb-4 lg:mb-0">
+                  <div className="lg:max-w-[450px] w-full mb-4 lg:mb-0">
                     <p className="md:text-4xl text-xl font-bold mb-8">
                       {choose.title}
                     </p>
