@@ -32,7 +32,7 @@ const MarketPlace = () => {
         <div className="flex items-center justify-between gap-2 lg:gap-20 md:text-[22px]">
           <div className="relative flex items-center space-x-3 group overflow-hidden">
             {/* Hover for transition */}
-            <div className="flex items-center space-x-3 group">
+            <div className="flex items-center space-x-3 hover:bg-[#e0e0e0]">
               <div className="relative flex items-center space-x-3">
                 <img src={DarkLogo} alt="Dark Logo" className="w-6 h-6" />
                 <span className="">Explore more</span>
