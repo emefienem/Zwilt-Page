@@ -4,6 +4,7 @@ import Image2 from "../assets/Chatbar.png";
 import Image3 from "../assets/Tracking.png";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
+import DarkLogo from "../assets/dark-logo.svg";
 
 const ChooseUsData = [
   {

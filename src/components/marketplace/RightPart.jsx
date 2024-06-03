@@ -1,5 +1,5 @@
 import React from "react";
-import Dark from "../../assets/dark-logo.svg";
+import DarkLogo from "../../assets/dark-logo.svg";
 
 const RightPart = ({ markets }) => {
   return (
