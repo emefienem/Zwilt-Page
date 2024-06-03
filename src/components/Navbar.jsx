@@ -157,7 +157,7 @@ const Navbar = () => {
           </button>
 
           {menuOpen && (
-            <ul className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-1 py-2 pr-2 mt-4 shadow bg-[#525AA0] w-auto rounded-lg z-30 flex flex-col space-x-5">
+            <ul className="fixed top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-1 py-2 pr-2 mt-4 shadow bg-[#525AA0] w-auto rounded-lg z-30 flex flex-col space-x-5">
               <div className="flex flex-row space-x-3">
                 <li className="border-b border-gray-300">Work</li>
                 <li className="border-b border-gray-300">Talent</li>
