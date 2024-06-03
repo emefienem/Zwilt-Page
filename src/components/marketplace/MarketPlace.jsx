@@ -17,10 +17,11 @@ const MarketPlace = () => {
             key={index}
             className="grid grid-cols-1 lg:grid-cols-6 gap-10 mb-10"
           >
+            {/* Left Side of the section */}
             <div className="lg:col-span-2 flex flex-col lg:justify-center lg:gap-16 gap-10">
               <LeftPart markets={market.leftPart} />
             </div>
-
+            {/* Right Side of the section */}
             <div className="lg:col-span-4 lg:flex lg:flex-col lg:items-end">
               <div className="max-w-[700px] w-full flex flex-col gap-5">
                 <RightPart markets={market.rightPart} />
@@ -30,15 +31,25 @@ const MarketPlace = () => {
         ))}
 
         <div className="flex items-center justify-between gap-2 lg:gap-20 md:text-[22px]">
-          <div className="relative flex items-center space-x-3 group overflow-hidden">
-            {/* Hover for transition */}
-            <div className="flex items-center space-x-3 hover:bg-[#e0e0e0] cursor-pointer p-4 rounded-xl ">
-              <div className="flex items-center space-x-3">
+          {/* <div className="relative flex items-center space-x-3 group overflow-hidden"> */}
+          {/* Hover for transition */}
+          {/* <div className="flex items-center space-x-3 hover:bg-black cursor-pointer p-4 rounded-xl ">
+            <div className="flex items-center space-x-3">
+              <div className="bg-black p-4">
                 <img src={DarkLogo} alt="Dark Logo" className="w-6 h-6" />
-                <span>Explore more</span>
               </div>
+              <span className="hover:text-white">Explore more</span>
             </div>
+          </div> */}
+          <div className="flex space-x-4 hover:bg-black hover:rounded-xl">
+            <div className="bg-black p-4 rounded-xl hover:w-20 md:hover:w-10">
+              <img src={DarkLogo} alt="Dark Logo" className="invert" />
+            </div>
+            <span className="font-semibold text-base z-10 hover:text-white">
+              Explore more
+            </span>
           </div>
+          {/* </div> */}
           <div className="md:absolute md:left-[46.5%]">
             <p>
               30 more <span className="text-[#202229CC]">to explore</span>
