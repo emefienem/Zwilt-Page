@@ -39,7 +39,7 @@ const MarketPlace = () => {
               Explore more
             </span>
           </div>
-          <div className="md:absolute md:left-[46.5%]">
+          <div className="md:absolute md:left-[46.5%] hover:font-semibold cursor-pointer">
             <p>
               30 more <span className="text-[#202229CC]">to explore</span>
             </p>
