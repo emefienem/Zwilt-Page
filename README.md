@@ -3,7 +3,7 @@
 ### Overview
 The Zwilt Landing Page is a responsive, user-friendly interface designed to showcase the services offered by Zwilt. Utilizing modern web development tools such as React and Tailwind CSS, this project emphasizes both functionality and aesthetics to provide an engaging user experience.
 
-## Key Features
+## Key Features / Notable Decisions
 - **Transition Effects on Scroll**: Smooth transition animations enhance the visual appeal as users scroll through the page.
 - **Carousel**: A dynamic carousel component to display featured content or services.
 - **Slanted Border Design**: Unique slanted borders to give the design a modern and edgy look.
@@ -21,7 +21,7 @@ The Zwilt Landing Page is a responsive, user-friendly interface designed to show
 - **Hover Effects**: Tailored using Tailwind CSS classes to ensure consistency and responsiveness across different elements.
 - **FAQ Accordion**: Built with React components to allow easy expansion and collapse of FAQ items, improving accessibility and usability.
 
-## CHallenges Encountered
+## Challenges Encountered
 - **Carousel Integration**: Integrating the embla-carousel-react and Autoplay plugin requiredme  handling various edge cases and ensuring compatibility with the overall design.
 - **Smooth Transitions**: Implementing scroll-based transitions with 'react-intersection-observer' needed the exact control to achieve the desired effect without affecting the performance.
 
