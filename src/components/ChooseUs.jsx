@@ -205,7 +205,7 @@ const ChooseUs = () => {
                           <span>{each}</span>
                         </div>
                       ))}
-                      <div className="flex space-x-4 hover:bg-black hover:rounded-xl hover:text-white cursor-pointer">
+                      <div className="flex space-x-4 hover:bg-black hover:rounded-xl hover:text-white cursor-pointer transition-all duration-300">
                         <div className="bg-black p-4 rounded-xl hover:w-20">
                           <img
                             src={DarkLogo}
