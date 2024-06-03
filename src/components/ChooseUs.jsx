@@ -67,7 +67,7 @@ const ChooseUs = () => {
                   className="embla__slide flex-none p-4 lg:p-10 rounded-[20px] bg-white flex flex-col lg:flex-row items-center justify-between shadow-lg"
                   style={{ minWidth: "100%", maxWidth: "100%" }}
                 >
-                  <div className="lg:max-w-[450px] w-full mb-4 lg:mb-0">
+                  <div className="lg:max-w-[750px] w-full mb-4 lg:mb-0">
                     <p className="md:text-4xl text-xl font-bold mb-8">
                       {choose.title}
                     </p>
