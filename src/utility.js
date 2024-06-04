@@ -12,7 +12,7 @@ import Illus from "./assets/illus.svg";
 import Unreal from "./assets/unreal.svg";
 import WebFlow from "./assets/webflow.svg";
 import Logo1 from "./assets/dark-logo.svg";
-import Logo2 from "./assets/dark-logo.svg";
+import Logo2 from "./assets/dark-logo2.svg";
 
 export const Markets = [
   {
