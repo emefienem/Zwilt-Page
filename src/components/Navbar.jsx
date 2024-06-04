@@ -64,9 +64,11 @@ const Navbar = () => {
             className={`${
               activeElement === "find-work" ? "active" : ""
             } cursor-pointer`}
+            /*set the active element */
             onClick={() => setActiveElement("find-work")}
           >
             Find Work
+            {/* update the active element to have the underline image  */}
             {activeElement === "find-work" && (
               <img
                 src={activeIndicatorImage}
@@ -79,9 +81,11 @@ const Navbar = () => {
             className={`${
               activeElement === "find-talent" ? "active" : ""
             } cursor-pointer`}
+            /*set the active element */
             onClick={() => setActiveElement("find-talent")}
           >
             Find Talent
+            {/* update the active element to have the underline image  */}
             {activeElement === "find-talent" && (
               <img
                 src={activeIndicatorImage}
@@ -94,9 +98,11 @@ const Navbar = () => {
             className={`${
               activeElement === "articles" ? "active" : ""
             } cursor-pointer`}
+            /*set the active element */
             onClick={() => setActiveElement("articles")}
           >
             Articles
+            {/* update the active element to have the underline image  */}
             {activeElement === "articles" && (
               <img
                 src={activeIndicatorImage}
@@ -109,9 +115,11 @@ const Navbar = () => {
             className={`${
               activeElement === "about-us" ? "active" : ""
             } cursor-pointer`}
+            /*set the active element */
             onClick={() => setActiveElement("about-us")}
           >
             About Us
+            {/* update the active element to have the underline image  */}
             {activeElement === "about-us" && (
               <img
                 src={activeIndicatorImage}
@@ -124,9 +132,11 @@ const Navbar = () => {
             className={`${
               activeElement === "contact-us" ? "active" : ""
             } cursor-pointer`}
+            /*set the active element */
             onClick={() => setActiveElement("contact-us")}
           >
             Contact Us
+            {/* update the active element to have the underline image  */}
             {activeElement === "contact-us" && (
               <img
                 src={activeIndicatorImage}

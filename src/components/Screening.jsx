@@ -11,6 +11,7 @@ const Screening = () => {
     setOpenItem((prev) => (prev === id ? null : id));
   };
 
+  // Data for mapping
   const screeningList = [
     {
       id: 1,

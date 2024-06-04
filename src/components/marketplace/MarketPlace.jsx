@@ -31,6 +31,7 @@ const MarketPlace = () => {
         ))}
 
         <div className="flex items-center justify-between gap-2 lg:gap-20 md:text-[22px]">
+          {/* Hover on the Explore more for a transition */}
           <div className="flex items-center hover:bg-black hover:rounded-xl hover:text-white cursor-pointer transition-all duration-300">
             <div className="bg-black p-4 rounded-xl hover:w-28">
               <img src={DarkLogo} alt="Dark Logo" className="invert" />

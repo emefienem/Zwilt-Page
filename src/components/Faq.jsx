@@ -1,6 +1,7 @@
 import React from "react";
 import YellowLogo from "../assets/yellow-logo.svg";
 
+// Data for mapping
 const faqsQuestion = [
   "I want to work part-time, is that possible",
   "How long are the average projects?",
@@ -17,20 +18,20 @@ const Faq = () => {
         </h1>
 
         <div className="flex flex-col">
-          {["General", "Joining Process"].map((item, i) => (
-            <div key={i}>
-              {faqsQuestion.map((faq, i) => (
-                <div key={i} className={"flex group"}>
+          {["General", "Joining Process"].map((item, index) => (
+            <div key={index}>
+              {faqsQuestion.map((faq, index) => (
+                <div key={index} className={"flex group"}>
                   <div
                     className={`md:w-[20%] py-7 px-3 text-center border border-[#D6D6D6] group-hover:bg-[#E8E8E8] ${
-                      i !== 0 && "border-r-0"
+                      index !== 0 && "border-r-0"
                     }`}
                   >
-                    {i === 0 && item}
+                    {index === 0 && item}
                   </div>
                   <div
                     className={`px-3 border border-[#D6D6D6] w-full py-7 text-center hover:bg-[#E8E8E8] cursor-pointer relative ${
-                      i !== 0 && "border-l-0"
+                      index !== 0 && "border-l-0"
                     }`}
                   >
                     <p className="text-base group-hover:font-bold">{faq}</p>

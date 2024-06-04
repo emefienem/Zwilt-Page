@@ -7,6 +7,7 @@ import Two from "../assets/two.svg";
 import Three from "../assets/three.svg";
 import DarkLogo from "../assets/dark-logo.svg";
 
+// Data for mapping
 const Lists = [
   {
     image: One,

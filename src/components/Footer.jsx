@@ -4,6 +4,7 @@ import Underline from "../assets/line.svg";
 import Logo from "../assets/logo2.svg";
 import DarkLogo from "../assets/dark-logo.svg";
 
+// Data for mapping
 const Links = [
   {
     heading: "Platform",
@@ -33,6 +34,7 @@ const Footer = () => {
           </h1>
 
           <div className="bg-black rounded-2xl p-5 mt-5">
+            {/* Rotating the logo to face down */}
             <img
               src={DarkLogo}
               alt="Upside Down"
