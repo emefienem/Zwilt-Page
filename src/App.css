@@ -3,6 +3,7 @@
   margin: auto;
 }
 
+/* Animation for scrolling style */
 .fade-in-left {
   opacity: 0;
   transform: translateX(-50px);
@@ -37,6 +38,7 @@
   box-shadow: 0px 15px 30px 0px #bfb5ff26;
 }
 
+/* Applying a gradient to the background */
 .gradient-bg {
   background: linear-gradient(
     180deg,
@@ -47,15 +49,6 @@
 
 .footer-gradient {
   background: linear-gradient(180deg, #0c0c0c 0%, #202229 100%);
-}
-
-/* Enabling the dynamic hover */
-.group-hover\:translate-x-5:hover .group-hover\:translate-x-5 {
-  transform: translateX(1.25rem); /* 5 * 0.25rem = 1.25rem */
-}
-
-.group-hover\:opacity-100:hover .group-hover\:opacity-100 {
-  opacity: 1;
 }
 
 @media (min-width: 1024px) {
