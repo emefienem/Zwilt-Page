@@ -11,7 +11,8 @@ import SubCatIcon from "./assets/sub-cat.svg";
 import Illus from "./assets/illus.svg";
 import Unreal from "./assets/unreal.svg";
 import WebFlow from "./assets/webflow.svg";
-import Logo from "./assets/dark-logo.svg";
+import Logo1 from "./assets/dark-logo.svg";
+import Logo2 from "./assets/dark-logo.svg";
 
 export const Markets = [
   {
@@ -57,7 +58,7 @@ export const Markets = [
           text: "Dot Net Developer",
         },
         {
-          icon: Logo,
+          icon: Logo1,
         },
       ],
     },
@@ -86,7 +87,7 @@ export const Markets = [
       title: "Design & Creative",
       markets: [
         {
-          icon: Logo,
+          icon: Logo2,
         },
         {
           icon: Figma,
